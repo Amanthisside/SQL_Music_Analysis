@@ -1,5 +1,5 @@
 ALTER TABLE assets
-ALTER COLUMN asset_no TYPE INT 
+ALTER COLUMN asset_no TYPE INT  
 USING asset_no::INT;
 
 
